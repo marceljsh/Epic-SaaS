@@ -1,0 +1,27 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Next.js build output
+/.next/
+
+# IDE files
+.vscode/
+.idea/
+
+# Node.js generated files
+npm-debug.log*
+
+# Compiled binary addons (such as .node)
+/build/
+
+# macOS files
+.DS_Store
+
+# Editor-specific files
+*.swp
+*~
+
+.env
+.env.local
