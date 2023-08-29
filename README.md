@@ -1,53 +1,60 @@
-# Build a SaaS app with React
+<a name="readme-top"></a>
 
-## Technologies Used
+<br />
+<div align="center">
+  <h1 align="center">Epic SaaS</h1>
 
-- Next.js (13), Supabase, Stripe, Vercel
+  <p align="center">
+    <em>A simple Next.js app to sell online course. Powered by <a href="https://stripe.com">Stripe</a> and <a href="https://supabase.com">Supabase</a>.</em>
+    <br />
+    <br />
+    <a href="https://epicsaas.vercel.app">View Demo</a>
+    ·
+    <a href="https://linkedin.com/in/marceljsh">See Author</a>
+  </p>
+</div>
 
-## Tools Needed
+### Built With
 
-- [Node / NPM (Package Manager)](https://nodejs.org/)
-- [VSCode (Code Editor)](https://code.visualstudio.com/)
-- [Git / Github](https://git-scm.com/)
+* [Next.js 13](https://nextjs.org/)
+* [Stripe](https://restcountries.com/)
+* [Supabase](https://stripe.com/)
 
-## Accounts Needed (100% Free)
+<!-- LIVE DEMO -->
+### Live Demo
 
-- [Supabase (Backend)](https://supabase.com)
-- [Stripe (Payments)](https://stripe.com)
-- [Vercel (Deployment)](https://vercel.com)
-- [Github (Continuous Deployment)](https://github.com)
+You can check a running version of this project <a href="https://epicsaas.vercel.app">here</a>
 
-## Next.js Documentation
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- [Next.js Image](https://nextjs.org/docs/api-reference/next/image)
-- [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
-- [Next.js GetStaticPaths](https://nextjs.org/docs/basic-features/data-fetching/get-static-paths)
-- [Next.js GetStaticProps](https://nextjs.org/docs/basic-features/data-fetching/get-static-props)
+<!-- GETTING STARTED -->
+## Getting Started
 
-## Stripe Documentation (Select Node.js in code snippets)
+To get a local copy up and running follow these simple example steps.
 
-- [Stripe Checkout: Customer Portal](https://stripe.com/docs/billing/subscriptions/build-subscriptions#customer-portal)
-- [Stripe API: List all prices](https://stripe.com/docs/api/prices/list)
-- [Stripe API: Retrieve product](https://stripe.com/docs/api/products/retrieve)
-- [Stripe API: Retrieve Customer](https://stripe.com/docs/api/customers/retrieve)
-- [Stripe API: Create a Checkout Session](https://stripe.com/docs/api/checkout/sessions/create)
-- [Stripe API: Event Object for Webhooks](https://stripe.com/docs/api/events/object)
-- [Stripe API: Versioning](https://stripe.com/docs/upgrades#api-versions)
-- [Stripe Checkout: Billing Portal Settings](https://dashboard.stripe.com/test/settings/billing/portal)
+### Prerequisites
 
-## Supabase Documentation
+This is an example of how to list things you need to use the software and how to install them.
 
-- [Supabase Next.js Auth Helpers](https://supabase.com/docs/guides/auth/auth-helpers/nextjs)
-- [Supabase Magic Link Login](https://supabase.com/docs/guides/auth/auth-magic-link)
-- [Supabase Auth Signout](https://supabase.com/docs/reference/javascript/auth-signout)
-- [Supabase RLS: Row Level Security](https://supabase.com/docs/guides/auth/row-level-security)
-- [Supabase Database Functions](https://supabase.com/docs/guides/database/functions)
-- [Supabase Database Triggers](https://supabase.com/docs/guides/auth/managing-user-data#using-triggers)
+* Node.js 16.8 or later
 
-## Additional Info
+### Installation
 
-- The logo font is "Bakbak One", a free Google font
-- All the images are included in the /assets folder in /public
-- Along with each image is its original .psd (Photoshop) file
-- Seed product data using the Supabase SQL editor from the seed.sql file (in this project)
-- Use VSCode to instantly install the recommended extensions for this project (listed in the .vscode folder in this project)
+1. Clone the repo
+   ```bash
+   git clone https://github.com/marceljsh/Epic-SaaS.git
+   ```
+2. Install NPM packages
+   ```bash
+   npm install
+   ```
+2. Run the application
+   ```bash
+   npm run dev
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License 📜
+
+Copyright © 2023, [Marcel Joshua](https://github.com/marceljsh). _This property is intended as a self exploration requirement_
